@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Order delicious cakes online from Bakery. Explore our selection and enjoy freshly baked cakes delivered to your door.">
+    <title>Cake Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.2/build/spline-viewer.js" defer></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.5/dist/perfect-scrollbar.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.5/css/perfect-scrollbar.min.css
+" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loading" class="loading">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+
+    <header id="header" class="header hidden">
+        <a href="#" class="logo">Bakery</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="slides-container">
+            <div class="slide-active">
+                <!-- Slide content goes here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-container">
+        <h1>Order Online Cakes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores quae, nam numquam dolorem optio quos tempore? Explicabo, ea, dignissimos aperiam quae sit qui temporibus iure quasi enim nihil aliquam?</p>
+        <a href="#shop"><button class="btn-shop" >Shop Now🤗</button></a>
+        <spline-viewer loading="lazy" url="https://prod.spline.design/fJEspbFNsvwolVaa/scene.splinecode" ></spline-viewer>
+
+    </section>
+
+    <section class="shop" id="shop">
+        <div class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="./images/blueberry.avif" alt="Cake 1">
+                <h3>BlueBerry Cake</h3>
+                <p>$15.00</p>
+                <button class="btn-buy">Buy Now 🍰</button>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="./images/cupcake1.avif" alt="Cake 2">
+                <h3>Cup Cake</h3>
+                <p>$12.00</p>
+                <button class="btn-buy">Buy Now 🍰</button>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="./images/cupcake2.jpg" alt="Cake 3">
+                <h3>Chocolate Cup Cake</h3>
+                <p>$18.00</p>
+                <button class="btn-buy">Buy Now 🍰</button>
+            </div>
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="./images/blueberry_cupcake.avif" alt="Cake 4">
+                <h3>Royal Cake</h3>
+                <p>$14.00</p>
+                <button class="btn-buy">Buy Now 🍰</button>
+            </div>
+            
+             <div class="card">
+                <img src="./images/all_flavour.avif" alt="Cake 5">
+                <h3>Mix Fruit Cakes</h3>
+                <p>$16.00</p>
+                <button class="btn-buy">Buy Now 🍰</button>
+            </div>
+            
+            <div class="card">
+                <img src="./images/cupcake3.avif" alt="Cake 6">
+                <h3>Halloween Cup Cake</h3>
+                <p>$13.00</p>
+                <button class="btn-buy">Buy Now 🍰</button>
+            </div>
+            
+            <div class="card">
+                <img src="./images/royalcake.jpg" alt="Cake 7">
+                <h3>Sweet Cutie Cake</h3>
+                <p>$17.00</p>
+                <button class="btn-buy">Buy Now 🍰</button>
+            </div>
+            
+            <div class="card">
+                <img src="./images/biscutecake.jpg" alt="Cake 8">
+                <h3>Lemon Cake</h3>
+                <p>$11.00</p>
+                <button class="btn-buy">Buy Now 🍰</button>
+            </div>
+            
+           
+        </div>
+    </section>
+    
+
+    <section class="about" id="about">
+    </section>
+
+    <section class="contact" id="contact">
+               <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <hr>
+
+    </section>
+
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
