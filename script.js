@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
         loading.style.display = 'none';
         header.classList.remove('hidden');
-    }, 7000);
+    }, 4000);
 
     });
     
